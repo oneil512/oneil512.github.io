@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 url: "https://oneil512.github.io"
-baseurl: ""
+baseurl: "/"
 
 # Name of website
 
@@ -13,13 +13,23 @@ title: Clay O'Neil
 
 # Short description of your site
 description: ML Engineer
-
-theme: alembic-jekyll-theme
+avatar: https://raw.githubusercontent.com/oneil512/oneil512.github.io/master/images/me.jpg
 
 footer-links:
   email: oneil512@umn.edu
   github: oneil512
   linkedin: clay-o-neil-b09564b0
+
+baseurl: ""
+
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
