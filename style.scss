@@ -23,6 +23,10 @@ body {
   color: $darkGray;
 }
 
+a.active {
+  color:#008080
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
