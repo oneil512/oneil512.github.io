@@ -23,10 +23,6 @@ body {
   color: $darkGray;
 }
 
-a.active {
-  color:#008080
-}
-
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -70,15 +66,6 @@ h4 {
 
 p {
   margin: 15px 0;
-}
-
-a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
 }
 
 ul, ol {
@@ -239,6 +226,18 @@ nav {
       color: $blue;
     }
   }
+}
+
+a {
+  text-decoration: none;
+	cursor: pointer;
+  &:hover {
+    color: $blue;
+  }
+}
+
+a.active {
+  color: $blue;
 }
 
 //

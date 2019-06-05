@@ -27,9 +27,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/" onclick={class="active"} >Blog</a>
-            <a href="{{ site.baseurl }}/about" onclick={class="active"} >About</a>
-            <a href="{{ site.baseurl }}/resume" onclick={class="active"} >Resume</a>
+            <a href="{{ site.baseurl }}/"{% if page.url == "/" %}class="active"{% endif %} >Blog</a>
+            <a href="{{ site.baseurl }}/about"{% if page.url == "/about" %}class="active"{% endif %} >About</a>
+            <a href="{{ site.baseurl }}/resume"{% if page.url == "/resume" %}class="active"{% endif %} >Resume</a>
           </nav>
         </header>
       </div>
