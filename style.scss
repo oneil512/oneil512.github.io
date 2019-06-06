@@ -28,15 +28,17 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  font-size: 16px;
+  font-weight: 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: 300;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -45,10 +47,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: $darkerGray;
+  font-weight: 300;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+  font-size: 45px;
   a {
     color: inherit;
   }
+}
+#summary {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 5px auto 0px;
+  padding: 10px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Roboto',sans-serif;
 }
 
 h2 {
@@ -99,6 +127,27 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+.img {
+  img:hover {border-radius: 5px;}
+  display: inline-block;
+  img {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    transition: .3s;
+    display: inline-block;
+    overflow: hidden;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 0px;
+  }
 }
 
 // Fixes images in popup boxes from Google Translate
