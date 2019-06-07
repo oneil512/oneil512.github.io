@@ -8,7 +8,7 @@ permalink: /about
 
 <h1 class="title">About Me</h1>
 <p id="summary">Besides machine learning, I also enjoy rock climbing.  Check out some photos below!</p>
-<div>
+<div class="gallery">
   <div class="img comp">
     <img class="" src="{{site.baseurl}}/images/IMG_2292.JPG"/>
     <p>Me in the 2019 Comp De Bloc finals</p>
