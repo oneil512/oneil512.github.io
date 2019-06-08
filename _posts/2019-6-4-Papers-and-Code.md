@@ -1,7 +1,7 @@
 ---
 title: Papers and Code
 ---
-A list of papers I have implemented in various ML frameworks
+A list of papers I have implemented in various ML frameworks.  The goal is to learn as much as possible implementing papers until I know enough to do my own research.
 
 * Long Short-Term Memory &nbsp;[Paper](https://www.bioinf.jku.at/publications/older/2604.pdf) &nbsp;[Code](https://github.com/oneil512/lstm)
 * Long Short-Term Memory Networks &nbsp;[Paper](https://arxiv.org/pdf/1601.06733.pdf) &nbsp;[Code](https://github.com/oneil512/lstmn)
